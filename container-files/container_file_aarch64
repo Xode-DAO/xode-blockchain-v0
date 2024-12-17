@@ -15,7 +15,6 @@ RUN echo "/xode-node \\" >> xode-node.sh
 RUN echo "--chain /raw-xode-node-chainspec.json \\" >> xode-node.sh
 RUN echo "--base-path /xode \\" >> xode-node.sh
 RUN echo "--rpc-port 9944 \\" >> xode-node.sh
-RUN echo "--pruning archive \\" >> xode-node.sh
 RUN echo "--telemetry-url \"wss://telemetry.polkadot.io/submit/ 0\" \\" >> xode-node.sh
 RUN echo "--name \"\$1\"" >> xode-node.sh
 
